@@ -1,0 +1,12 @@
+body {
+    background-color: red;
+    font-family: futura;
+}
+
+#main-content {
+    padding-top: 50px;
+}
+
+.searchBar {
+    padding: 50px 0px;
+}

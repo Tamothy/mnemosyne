@@ -1,30 +1,22 @@
-
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8" />
-    <title>Mnemosyne</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/react.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/JSXTransformer.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Mnemosyne</title>
+        <!-- React Library -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/react.js"></script>
+        <!-- Converts JSX in Browser -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/JSXTransformer.js"></script>
+        <!-- JQuery -->
+        <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+        <!-- Bootstrap -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="main.css">
 
-    <div id="content"></div>
-
-    <script type="text/jsx">
-
-        var ExampleComponent = React.createClass({
-            render: function() {
-                return (
-                        <h2>My name is Tam</h2>
-                );
-            }
-        });
-
-        React.render(<ExampleComponent />, document.getElementById('content'));
-
-    </script>
-
-</body>
+    </head>
+    <body>
+        <div id="main-content" class="container-fluid"></div>
+        <script type="text/jsx" src="app.js"></script>
+        </div>
+    </body>
 </html>
