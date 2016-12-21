@@ -1,0 +1,18 @@
+%border-box {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+%grayscale {
+  filter: grayscale(100%);
+}
+
+%grayscale-to-color {
+    transition: all .1s ease-in-out .1s;
+    filter: grayscale(0%);
+}
+
+%paragraph-padding {
+  padding-left: 2em;
+}

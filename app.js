@@ -1,4 +1,4 @@
-// Spotify Web API search
+// Spotify Web API search component
 var MusicSearch = React.createClass({
     getInitialState: function() {
         return { tracks: [] };
@@ -37,7 +37,7 @@ var MusicSearch = React.createClass({
       }
 });
 
-// Musicsearch:
+// Musicsearch search bar component
 //  searchFn: process text input
 //  result: string being seached
 
@@ -51,7 +51,7 @@ var Musicsearch = React.createClass({
     render: function() {
         return (
             <div className="ui search">
-                <div className="">
+                <div className="ui huge fluid icon input">
                     <input type="text" ref="searchInput" value={this.props.result} onChange={this.inputText} placeholder={this.props.placeholder} />
                     <i className={this.props.icon + " icon"}></i>
                 </div>
@@ -60,7 +60,7 @@ var Musicsearch = React.createClass({
     }
 });
 
-// Searches music tracks and artists
+// Searches music tracks and artists component
 var MusicTrack = React.createClass({
     render: function() {
         var imgAlbum = "";
@@ -74,8 +74,8 @@ var MusicTrack = React.createClass({
             );
         });
         return (
-            <div className="" onClick={this.props.playHandler}>
-                <div className="">
+            <div className="ui card information" onClick={this.props.playHandler}>
+                <div className="ui image">
                     <img src={imgAlbum} />
                 </div>
                 <div className="content">
@@ -90,13 +90,13 @@ var MusicTrack = React.createClass({
     }
 });
 
-// Array of music track objects
+// Array of music track objects component
 var TrackList = React.createClass({
     getInitialState: function() {
         return {audio : null};
     },
     handleClick: function(i) {
-        // create new audio object if it hasnt been initialized
+        // New audio object
         if (this.state.audio === null) {
             var audio = new Audio(this.props.tracks[i].preview_url)
             this.setState({audio : audio}, function() {
@@ -124,7 +124,7 @@ var TrackList = React.createClass({
             );
         }, this);
         return (
-            <div className="">
+            <div className="ui three doubling cards">
                 {trackNodes}
             </div>
         );

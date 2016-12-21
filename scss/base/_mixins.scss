@@ -1,0 +1,5 @@
+@mixin background-image-properties ($background-repeat, $background-position, $background-size){
+  background-repeat: $background-repeat;
+  background-position: $background-position;
+  background-size: $background-size;
+}

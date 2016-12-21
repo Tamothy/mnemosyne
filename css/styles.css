@@ -1,12 +1,14 @@
 body {
-    background-color: red;
-    font-family: futura;
-}
+  background-color: #EC5D62;
+  font-family: futura; }
 
 #content {
-    padding-top: 50px;
-}
+  padding-top: 50px; }
 
 .searchBar {
-    padding: 50px 0px;
-}
+  padding: 50px 0px; }
+
+.information:hover {
+  opacity: .5; }
+
+/*# sourceMappingURL=styles.css.map */
