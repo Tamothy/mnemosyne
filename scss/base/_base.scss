@@ -4,8 +4,25 @@
 
 body {
     background-color: $burnt-sienna;
-    font-family: futura;
     margin: 0;
+}
+
+h1 {
+  padding-top: 10px;
+  color: $turquoise-blue;
+  text-align: center;
+  font-size: 4em;
+  font-family: futura;
+  font-style: italic;
+}
+
+h4 {
+  font-family: futura;
+  margin-top: -10px;
+  font-size: 1.5em;
+  text-align: center;
+  color: $white;
+  letter-spacing: 3px;
 }
 
 #content {
@@ -14,7 +31,11 @@ body {
 
 .information {
   &:hover {
-  filter: brightness(.8);
-  cursor: pointer;
+    filter: brightness(.8);
+    cursor: pointer;
   }
+}
+
+.search {
+  padding-bottom: 10px;
 }

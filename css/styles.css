@@ -5,8 +5,23 @@
 
 body {
   background-color: #EC5D62;
-  font-family: futura;
   margin: 0; }
+
+h1 {
+  padding-top: 10px;
+  color: #6CDAE7;
+  text-align: center;
+  font-size: 4em;
+  font-family: futura;
+  font-style: italic; }
+
+h4 {
+  font-family: futura;
+  margin-top: -10px;
+  font-size: 1.5em;
+  text-align: center;
+  color: #FFFFFF;
+  letter-spacing: 3px; }
 
 #content {
   padding-top: 50px; }
@@ -14,5 +29,8 @@ body {
 .information:hover {
   filter: brightness(0.8);
   cursor: pointer; }
+
+.search {
+  padding-bottom: 10px; }
 
 /*# sourceMappingURL=styles.css.map */
