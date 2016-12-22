@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: $burnt-sienna;
+    background-color: $persimmon;
     margin: 0;
 }
 
@@ -20,7 +20,7 @@ h4 {
   @include font-properties(futura, 1.5em);
   @extend %text-align-center;
   color: $white;
-    margin-top: -10px;
+  margin-top: -10px;
   letter-spacing: 3px;
 }
 
