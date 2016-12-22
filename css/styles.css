@@ -34,7 +34,8 @@ h4 {
     cursor: pointer;
     transform: scale(1.1);
     z-index: 1;
-    filter: grayscale(0); }
+    filter: grayscale(0);
+    filter: contrast(1.25); }
 
 .search {
   padding-bottom: 25px; }
