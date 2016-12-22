@@ -74,7 +74,7 @@ var MusicTrack = React.createClass({
             );
         });
         return (
-            <div className="ui card information" onClick={this.props.playHandler}>
+            <div className="ui card information blur" onClick={this.props.playHandler}>
                 <div className="ui image">
                     <img src={imgAlbum} />
                 </div>

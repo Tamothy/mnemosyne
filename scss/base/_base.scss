@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: $persimmon;
+    background-color: $burnt-sienna;
     margin: 0;
 }
 
@@ -28,10 +28,12 @@ h4 {
   padding-top: 50px;
 }
 
+
 .information {
   &:hover {
-    filter: brightness(.8);
     cursor: pointer;
+    transform: scale(1.2);
+    z-index: 1;
   }
 }
 

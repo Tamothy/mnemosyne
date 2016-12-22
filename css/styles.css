@@ -7,7 +7,7 @@ h1, h4 {
   text-align: center; }
 
 body {
-  background-color: #FF5E51;
+  background-color: #EC5D62;
   margin: 0; }
 
 h1 {
@@ -29,8 +29,9 @@ h4 {
   padding-top: 50px; }
 
 .information:hover {
-  filter: brightness(0.8);
-  cursor: pointer; }
+  cursor: pointer;
+  transform: scale(1.2);
+  z-index: 1; }
 
 .search {
   padding-bottom: 10px; }
