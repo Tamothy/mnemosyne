@@ -28,12 +28,15 @@ h4 {
 #content {
   padding-top: 50px; }
 
-.information:hover {
-  cursor: pointer;
-  transform: scale(1.2);
-  z-index: 1; }
+.information {
+  filter: grayscale(1); }
+  .information:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    z-index: 1;
+    filter: grayscale(0); }
 
 .search {
-  padding-bottom: 10px; }
+  padding-bottom: 25px; }
 
 /*# sourceMappingURL=styles.css.map */
