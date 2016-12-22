@@ -8,20 +8,19 @@ body {
 }
 
 h1 {
-  padding-top: 10px;
+  @include font-properties(futura, 4em);
+  @extend %text-align-center;
   color: $turquoise-blue;
+  padding-top: 10px;
   text-align: center;
-  font-size: 4em;
-  font-family: futura;
   font-style: italic;
 }
 
 h4 {
-  font-family: futura;
-  margin-top: -10px;
-  font-size: 1.5em;
-  text-align: center;
+  @include font-properties(futura, 1.5em);
+  @extend %text-align-center;
   color: $white;
+    margin-top: -10px;
   letter-spacing: 3px;
 }
 

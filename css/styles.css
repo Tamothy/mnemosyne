@@ -3,24 +3,26 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
+h1, h4 {
+  text-align: center; }
+
 body {
   background-color: #EC5D62;
   margin: 0; }
 
 h1 {
-  padding-top: 10px;
-  color: #6CDAE7;
-  text-align: center;
-  font-size: 4em;
   font-family: futura;
+  font-size: 4em;
+  color: #6CDAE7;
+  padding-top: 10px;
+  text-align: center;
   font-style: italic; }
 
 h4 {
   font-family: futura;
-  margin-top: -10px;
   font-size: 1.5em;
-  text-align: center;
   color: #FFFFFF;
+  margin-top: -10px;
   letter-spacing: 3px; }
 
 #content {
