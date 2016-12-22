@@ -1,15 +1,20 @@
+*, *::before, *::after {
+  @extend %border-box;
+}
+
 body {
     background-color: $burnt-sienna;
     font-family: futura;
+    margin: 0;
 }
 
 #content {
-    padding-top: 50px;
+  padding-top: 50px;
 }
 
-.searchBar {
-    padding: 50px 0px;
-}
-.information:hover {
-  opacity: .5;
+.information {
+  &:hover {
+  filter: brightness(.8);
+  cursor: pointer;
+  }
 }
